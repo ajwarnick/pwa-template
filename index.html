@@ -9,21 +9,27 @@
     <meta content="" name="description">
     <meta http-equiv="cache-control" content="max-age=800" />
     <meta http-equiv="cache-control" content="Private" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
     <link rel="manifest" href="manifest.json">
+    
     <meta name="theme-color" content="#FF0000"/>
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="manifest" href="/manifest.json" />
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-
+    
+    <video playsinline autoplay></video>
+    <button>Take snapshot</button>
+    <canvas></canvas>
 
 
     <!-- OUR PWA JAVASCRIPT FILE -->
     <script src="scripts/app.js" async></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 
     <!-- BASE P5 -->
     <script src="scripts/p5/p5.min.js"></script>
@@ -40,6 +46,6 @@
     <!-- <script src="scripts/p5/libraries/p5.upload.js"></script> -->
 
     <!-- OUR SKETCH FILE -->
-    <script src="scripts/p5/sketch.js"></script>
+    <!-- <script src="scripts/p5/sketch.js"></script> -->
   </body>
 </html>

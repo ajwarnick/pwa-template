@@ -1,6 +1,6 @@
 {
-  "short_name": "PWA",
-  "name": "Progressive Web Application",
+  "short_name": "P5-PWA",
+  "name": "p5.js - Progressive Web Application",
   "icons": [
     {
       "src": "/img/icons/android-icon-192x192.png",
@@ -19,7 +19,7 @@
   "display": "standalone",
   "orientation": "portrait-primary",
   "prefer_related_applications": true,
-  "description": "Progressive Web Application by Michael Stattelman.",
+  "description": "A p5 Progressive Web Application templet by Anthony Warnick.",
   "dir": "ltr",
   "lang": "en-US",
   "theme_color": "#0000FF"
